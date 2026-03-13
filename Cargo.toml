@@ -1,0 +1,9 @@
+[package]
+name = "arc_secure"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+allocator-api2 = "0.4.0"
+nix = { version = "0.31.2", features = ["mman"] }
+region = "3.0.2"
